@@ -1724,6 +1724,7 @@ body.lock {
     -webkit-box-flex: unset;
         -ms-flex: unset;
             flex: unset;
+    max-width: 350px;
     margin: 0px 0px 0px 0px;
   }
 
@@ -1931,6 +1932,10 @@ body.lock {
     right: -5%;
   }
 
+  .application__image {
+    max-width: 300px;
+  }
+
   .order {
     padding-bottom: 20%;
   }
@@ -1957,6 +1962,7 @@ body.lock {
         -ms-flex: unset;
             flex: unset;
     max-width: 400px;
+    margin-left: 0;
   }
 
   .download-app__leaves {
@@ -2069,6 +2075,10 @@ body.lock {
 
   .application__egg {
     right: -10%;
+  }
+
+  .application__image {
+    max-width: 200px;
   }
 
   .order {
